@@ -8,11 +8,6 @@ while(isNaN(dni)){
     }
 }
 
-// while(isNaN(dni) || (dni > 99999999 && dni < 0)){
-//     alert("No se ingreso un dni valido, vuelva a intentarlo.");
-//     dni = parseInt(prompt(`Ingrese el DNI: `));
-// }
-
 let resto = dni % 23;
 
 if(resto === 0){
